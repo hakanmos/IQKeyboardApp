@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        //ayarları aşağıdaki gibi ekleyebiliriz
+        //ayarları aşağıdaki gibi
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "Kapat"
         IQKeyboardManager.shared.toolbarTintColor = UIColor.white
